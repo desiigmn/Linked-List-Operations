@@ -33,7 +33,7 @@ class Node {
         result.push(current.value);
         current = current.next;
       }
-      console.log(`Linked List: ${result.join(" -> ")}`);
+      console.log(result.join(" -> "));
     }
   }
   
